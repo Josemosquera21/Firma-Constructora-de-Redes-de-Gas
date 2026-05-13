@@ -1,0 +1,33 @@
+/* 🔥 FUENTE GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f8fafc;
+}
+
+/* 🚀 SCROLL SUAVE */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 📱 MENÚ RESPONSIVE */
+.menu-icon {
+  display: none;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 22px;
+  }
+}
