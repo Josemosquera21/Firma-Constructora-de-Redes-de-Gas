@@ -1,0 +1,1 @@
+body{background:#f8fafc;margin:0;font-family:Poppins,sans-serif}html{scroll-behavior:smooth}.menu-icon{transition:all .3s;display:none}.menu-icon:hover{transform:scale(1.1)}@media (width<=768px){.desktop-menu{display:none}.menu-icon{color:#fff;font-size:22px;display:block}}
